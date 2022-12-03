@@ -1,0 +1,32 @@
+.container_studens{
+   
+    background: white;
+    height: 100%;
+}
+.contenido{
+    display: flex;
+    height: 90%;
+    flex-flow: column;
+    
+    align-items: center;
+    
+}
+.pun{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.table{
+   width: 95%;
+
+}
+#busca{
+    width: 20rem;
+    margin-left: 3rem;
+}
+#crear{
+    font-size: 2rem;
+}
+#eliminar{
+    font-size: 1.5rem;
+}

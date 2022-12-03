@@ -1,0 +1,59 @@
+.container_bby {
+  display: flex;
+  flex-flow: row;
+  width: 100vw;
+  height: 100vh;
+}
+#ad {
+  margin-top: -20px;
+  padding: 0 ;
+  width: 100%;
+}
+#tit {
+  color: rgb(107, 107, 107);
+}
+#rari {
+  height: .7rem;
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.pen {
+  text-decoration: none;
+  color: rgb(236, 241, 245);
+}
+.pen:hover {
+  color: rgb(255, 255, 255);
+}
+
+aside {
+  display: flex;
+  flex-flow: column;
+  flex: 0.15;
+  border: 2px solid blue;
+  background: rgb(13, 25, 51);
+}
+#main {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  border: 1px solid red;
+  background: rgb(226, 226, 226);
+}
+#barra {
+    background: rgb(255, 255, 255);
+  height: 70px;
+  border: 1px solid rgb(2, 8, 3);
+}
+#subti{
+    margin: 20px;
+}
+.todo{
+    display: flex;
+    flex-flow: column;
+    margin: 30px;
+    
+
+}

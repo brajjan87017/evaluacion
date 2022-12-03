@@ -1,0 +1,41 @@
+.container_register{
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(35, 35, 230) ;
+}
+
+article{
+    background: whitesmoke;
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+   
+    align-items: center;
+    justify-content: center;
+}
+#loco{
+    display: flex;
+    margin-top: 1rem;
+    width: 280px;
+    flex-flow: column;
+}
+.bot{
+    width: 100px;
+    margin-top: 20px;
+    margin: 10px;
+}
+#botones{
+    display: flex;
+    flex-flow: row;
+    
+}
+
+#contra{
+    margin-top: 10px;
+}

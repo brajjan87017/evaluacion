@@ -1,0 +1,53 @@
+.container_product{
+    background:rgb(13, 25, 51);
+    display: flex;
+    flex-flow: column;
+    height: calc(100vh - 4rem);
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.titulo{
+    color: white;
+}
+.card{
+    margin: 2rem;
+    background:rgb(25, 32, 58);
+    color: white;
+}
+#boton{
+    width: 90px;
+    border-radius: 8px;
+    position: absolute;
+    border: none;
+    background: #f8992d;
+
+}
+#menu{
+    color: rgb(240, 240, 234);
+    border: none;
+}
+.corazon{
+    
+    position: absolute;
+    border: none;
+    background: #03030300;
+    color: aliceblue;
+    
+}
+#funciones_botones{
+    margin-left: 15px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    height: 99.99%;
+    overflow: scroll;
+    background:rgb(13, 25, 51);
+}
+.drop{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+}

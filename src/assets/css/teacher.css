@@ -1,0 +1,33 @@
+.container_teacher{
+   
+    background: rgb(127, 219, 132);
+    height: 100%;
+}
+.contenido_teacher{
+    display: flex;
+    height: 90%;
+    flex-flow: column;
+    
+    align-items: center;
+    
+}
+.punt{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#table{
+   width: 95%;
+   background: white;
+
+}
+#buscar{
+    width: 20rem;
+    margin: .8rem;
+}
+#crear2{
+    font-size: 1.5rem;
+}
+#eliminar{
+    font-size: 1.5rem;
+}
